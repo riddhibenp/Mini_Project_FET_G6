@@ -57,59 +57,22 @@
       "username": "user2",
       "email": "abc@ahjkj.com",
       "password": "a",
-      "result": [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
+      "lit": 10,
+      "ent": -1,
+      "sports": -1,
+      "gk": -1,
+      "tech": 7
     },
     {
       "username": "user_new",
       "password": "bcvv",
       "email": "fdgdfg@sdf.vvcx",
       "id": 3,
-      "result": [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "username": "abcd",
-      "email": "dsfd",
-      "password": "dgvdf",
-      "id": 4,
-      "result": [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "username": "user1",
-      "email": "tryth",
-      "password": "tryt",
-      "id": 5,
-      "result": [
-        -1,
-        -1,
-        -1,
-        -1,
-        -1
-      ]
-    },
-    {
-      "username": "user_5",
-      "email": "dsfsd",
-      "password": "dsfsd",
-      "$result": "-1",
-      "id": 6
+      "lit": 7,
+      "ent": -1,
+      "sports": 5,
+      "gk": -1,
+      "tech": 7
     }
   ]
 }

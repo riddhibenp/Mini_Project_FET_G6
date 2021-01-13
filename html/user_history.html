@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EDIT PROFILE</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/session.js"></script>
+    <script src="../js/user_histroy.js"></script>
+    <script type="text/javascript">
+        history.pushState(null, null, location.href);
+        history.back();
+        history.forward();
+        window.onpopstate = function () {
+            history.go(1);
+        };
+    </script>
+</head>
+
+<body>
+    <table>user_histroy
+        <tr>
+            <td>ENT</td>
+            <td id="ENT"></td>
+        </tr>
+        <tr>
+            <td>LIT</td>
+            <td id="LIT"></td>
+        </tr>
+        <tr>
+            <td>GK</td>
+            <td id="GK"></td>
+        </tr>
+        <tr></tr>
+        <td>SPORTS</td>
+        <td id="SPORTS"></td>
+        <tr>
+            <td>tech</td>
+            <td id="tech"></td>
+        </tr>
+
+
+
+    </table>
+
+</body>
+
+</html>

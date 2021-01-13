@@ -72,7 +72,7 @@ function auth($username, $email, $password) {
         url: "http://localhost:3000/users",
         dataType: 'json',
         //async: false,
-        data: { 'username': $username, 'email':$email,'password': $password ,$result},
+        data: { 'username': $username, 'email':$email,'password': $password ,'ent':-1,'lit':-1,'gk':-1,'tech':-1,'sports':-1},
         success: function (response) {
             //alert(hwllo);
             $.session.set('username', $username);
