@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/session.js"></script>
+    <script src="../js/user_dash.js"></script>
+    <script type="text/javascript">
+        history.pushState(null, null, location.href);
+        history.back();
+        history.forward();
+        window.onpopstate = function () { history.go(1); };
+    </script>
+</head>
+
+<body>
+    WELCOME to User Dashboard
+    
+    <button  type="submit" name="btnSubmit" id="btnSubmit" >log_out</button>
+    <a href="p_r.html">RESET_PASSWORD</a><br>
+    <a href="edit.html">EDIT PROFILE</a><br>
+    <button  type="submit" name="btnSubmitd" id="btnSubmitd" >DELETE</button>
+    
+
+    <script>
+      
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,115 @@
+{
+  "ent": [
+    {
+      "question": " nb nh",
+      "option1": " b hn",
+      "option2": " n n",
+      "option3": "gh",
+      "option4": "hb ",
+      "id": 1
+    },
+    {
+      "question": "sdfsf",
+      "option1": "gsddf",
+      "option2": "dfgd",
+      "option3": "dfgdf",
+      "option4": "gdf",
+      "id": 2
+    },
+    {
+      "question": " nb nh",
+      "option1": " b hn",
+      "option2": " n n",
+      "option3": "gh",
+      "option4": "hb ",
+      "id": 3
+    },
+    {
+      "question": "fvd",
+      "option1": "fdh",
+      "option2": "dfgd",
+      "option3": "dfgdf",
+      "option4": "gdf",
+      "id": 4
+    }
+  ],
+  "lit": [
+    {
+      "question": " nb nh",
+      "option1": " b hn",
+      "option2": " n n",
+      "option3": "gh",
+      "option4": "M",
+      "id": 1
+    },
+    {
+      "question": " nb nh",
+      "option1": " b hn",
+      "option2": " n n",
+      "option3": "gh",
+      "option4": "M",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 2,
+      "username": "user2",
+      "email": "abc@ahjkj.com",
+      "password": "a",
+      "result": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "username": "user_new",
+      "password": "bcvv",
+      "email": "fdgdfg@sdf.vvcx",
+      "id": 3,
+      "result": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "username": "abcd",
+      "email": "dsfd",
+      "password": "dgvdf",
+      "id": 4,
+      "result": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "username": "user1",
+      "email": "tryth",
+      "password": "tryt",
+      "id": 5,
+      "result": [
+        -1,
+        -1,
+        -1,
+        -1,
+        -1
+      ]
+    },
+    {
+      "username": "user_5",
+      "email": "dsfsd",
+      "password": "dsfsd",
+      "$result": "-1",
+      "id": 6
+    }
+  ]
+}
